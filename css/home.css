@@ -1,0 +1,24 @@
+.container{
+  padding-top: 25px;
+}
+
+.column{
+  width: 80%;
+  float:right;
+}
+
+.item{
+  margin-left: 12px;
+  margin-bottom: 15px;
+}
+
+.itemMove{
+  margin-left: 12px;
+  margin-bottom: 15px;
+}
+
+.images img{
+  width:25vw;
+  display: block;
+  width:60%;
+}
