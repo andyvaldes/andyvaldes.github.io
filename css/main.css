@@ -1,0 +1,147 @@
+html{
+  box-sizing: border-box;
+  margin:0;
+}
+
+body{
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  color: rgb(8, 20, 191);
+}
+
+a:link{
+color:rgb(235, 73, 110);
+text-decoration: none;
+}
+
+a:visited{
+  color: rgb(235, 73, 110);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(8, 20, 191);
+}
+
+.main{
+  padding-top:33px;
+  width:95%;
+  margin:auto;
+}
+
+.name{
+  position: fixed;
+  margin-top: 0px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.instagram{
+  position: fixed;
+  margin-top: 400px;
+  font-size: 9.5pt;
+  font-style: italic;
+}
+
+.mail{
+  position: fixed;
+  margin-top: 450px;
+  font-size: 9.5pt;
+  font-style: italic;
+}
+
+.text{
+  position:fixed;
+  line-height: 18px;
+  margin-top:40px;
+  width:30%;
+  min-width: 400px;
+  font-size: 9.5pt;
+}
+
+.images{
+  width:60%;
+  margin-left:40%;
+  min-width: 600px;
+}
+
+.jiggle {
+    -webkit-animation: jiggle 0.3s infinite;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-name: jiggle;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+}
+
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-.5deg);
+    }
+    50% {
+        -moz-transform: rotate(.5deg);
+    }
+}
+
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-.5deg);
+        }
+    50% {
+        -webkit-transform: rotate(.5deg);
+    }
+}
+
+.jump {
+    -webkit-animation: jump 0.3s infinite;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-name: jump;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: translate(0, -1px);
+    -moz-transform: translate(0, -1px);
+}
+
+@-moz-keyframes jump {
+    0% {
+        -moz-transform: translate(0,-1px);
+    }
+    50% {
+        -moz-transform: translate(0,1px);
+    }
+}
+
+@-webkit-keyframes jump {
+    0% {
+        -webkit-transform: translate(0,-1px);
+        }
+    50% {
+        -webkit-transform: translate(0,1px);
+    }
+}
+
+.sidey {
+    -webkit-animation: sidey 0.3s infinite;
+    -moz-animation-duration: 0.3s;
+    -moz-animation-name: sidey;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: translate(-1px, 0);
+    -moz-transform: translate(-1px, 0);
+}
+
+@-moz-keyframes sidey {
+    0% {
+        -moz-transform: translate(-1px, 0);
+    }
+    50% {
+        -moz-transform: translate(1px, 0);
+    }
+}
+
+@-webkit-keyframes sidey {
+    0% {
+        -webkit-transform: translate(-1px, 0);
+        }
+    50% {
+        -webkit-transform: translate(1px, 0);
+    }
+}
